@@ -1,0 +1,24 @@
+body{
+    background-image:url("./photo-1487621167305-5d248087c724.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#mainBox{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    color: orange;
+    font-size: large;
+    
+}
+
+.image{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 1.5rem;
+    border: 1px solid black;
+}
