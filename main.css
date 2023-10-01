@@ -1,10 +1,12 @@
-body{
+/* This css it to have th ebackground image stay still while scrolling and take up the whole screen */
+body{ 
     background-image:url("./photo-1487621167305-5d248087c724.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
+/* this sizes the main box of the page to make sure it is always properly scaled  */
 #mainBox{
     width: 70%;
     margin-left: 15%;
@@ -15,6 +17,7 @@ body{
     
 }
 
+/* gives images a rounded border for style while keeping them scaled inside the main box */
 .image{
     width: 80%;
     margin-left: 10%;
